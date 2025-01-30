@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Rent A Car AB</title>
+    <link rel="stylesheet" type="text/css" href="CSS/cartstyle.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Rent A Car AB</h1>
+            <nav>
+                <ul>
+                    <li><a id="b" href="home.html">Home</a></li>
+                    <li><a id="b" href="index.html">Rent Now</a></li>
+                    <li><a id="b" href="aboutus.html">About Us</a></li>
+                    <li><a id="a" href="cart.html">Cart</a></li>
+                    <li class="Log"><a href="login.php">Log In</a></li>
+                    <li class="Log"><a href="singup.php">Sign Up</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="cart" class="hidden">
+            <h3>Shopping Cart</h3>
+            <ul id="cart-items">
+                <!-- Cart items will be added dynamically by JavaScript -->
+            </ul>
+            <p id="total">Total: €0</p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="cart-image-container">
+            <!-- Selected item's image will be added dynamically by JavaScript -->
+        </div>
+    </div>
+    <script src="JS/cartscript.js"></script>
+</body>
+</html>
