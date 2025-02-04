@@ -2,6 +2,7 @@
 
 include_once("header.php");
 include_once('sessions.php');
+include_once('config.php');
 
 if(isset($_SESSION['userId'])){
     header('Location:index.php');
